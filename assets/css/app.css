@@ -14,7 +14,7 @@ footer {
   
   border-style: solid;
   border-width: 1px;
-  border-color: #009688; 
+  border-color: #40394b; 
 }
 
 .container {
@@ -28,10 +28,10 @@ footer {
 
   border-style: solid;
   border-width: 1px;
-  border-color: #00796B; 
+  border-color: #51485E; 
   border-radius: 3px;
   
-  background-color: #00796B;
+  background-color: #51485E;
 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.24);
   z-index: 2;
