@@ -39,6 +39,28 @@ footer {
   z-index: 2;
 }
 
+@media screen and (max-width: 480px) {
+    .container {
+        position: absolute;
+        margin: 0;
+        width: 100%;
+        height: 80%;
+        bottom: 0;
+    } 
+    
+    footer {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 3;
+    }
+    
+    .text-muted {
+        color: #dedede;
+    }
+}
+
 .icon-container {
   margin-bottom: 10px;
 }
