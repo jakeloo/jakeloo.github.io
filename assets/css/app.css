@@ -1,7 +1,7 @@
 body {
   font-family: 'Josefin Sans', sans-serif;
 
-  background-color: #f1f4f7; 
+  background: #e1e7ee;
   text-align: center;
 }
 
@@ -13,7 +13,7 @@ footer {
 
 .image-margin {
   margin-top: 24px;
-  
+
   border-style: solid;
   border-width: 1px;
   border-color: #7c99b4; 
@@ -74,14 +74,31 @@ footer {
   text-align: center;
 }
 
-.fields-container p {
-  font-weight: 100;
+ul.fields-container {
+  list-style: none;
+  padding: 0;
 }
 
-.col-md-4 > a {
+ul.fields-container li {
+  margin: 0.4em 0;
+  width: 50%;
+  float: left;
+}
+
+.fields-container p {
+  font-weight: 300;
+}
+
+.fields-container h4 {
+  margin: 0.2em;
+}
+
+a, a:visited, a:active {
   color: #FFF;
 }
 
-.col-md-4 > a:hover {
+a:hover {
   color: #B0B0B0;
 }
+
+
