@@ -1,0 +1,48 @@
+:root {
+  --background-color: #FFFFFF;
+  --box-color: #FFFFFF;
+  --text-color: #212121;
+  --hover-color: #656565;
+}
+
+html[data-theme='dark'] {
+  --background-color: #212121;
+  --box-color: #303030;
+  --text-color: rgba(255, 255, 255, 0.89);
+  --hover-color: rgba(255, 255, 255, 0.50);
+}
+
+html[data-theme='light'] {
+  --background-color: #FFFFFF;
+  --box-color: #FFFFFF;
+  --text-color: #212121;
+  --hover-color: #656565;
+}
+
+html {
+  background-color: var(--background-color);
+}
+
+.box {
+  background-color: var(--box-color);
+  color: var(--text-color);
+  z-index: 2;
+}
+
+.title {
+  color: var(--text-color);
+}
+
+.subtitle {
+  color: var(--text-color);
+}
+
+a, a:visited, a:active {
+  color: var(--text-color);
+}
+
+a:hover {
+  color: var(--hover-color);
+}
+
+
